@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'udomi') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -42,7 +42,7 @@
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('/') ? 'active' : ''; }}" aria-current="page" href="pocetna">Početna</a>
+                            <a class="nav-link {{ Request::is('/') ? 'active' : ''; }}" aria-current="page" href="{{ url('/') }}">Početna</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ Request::is('onama') ? 'active' : '' }}" href="onama">O nama</a>

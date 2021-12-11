@@ -18,15 +18,15 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="icon" href="storage/tabLogo.png">
+    <link rel="icon" href="images/tabLogo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body style="background-image:url(storage/paw2.png)">
+<body style="background-image:url(images/paw2.png)">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="storage/udomilogo.png" alt="udomi" height="45">
+                    <img src="images/udomilogo.png" alt="udomi" height="45">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('/') ? 'active' : ''; }}" aria-current="page" href="/">Početna</a>
+                            <a class="nav-link {{ Request::is('/') ? 'active' : ''; }}" aria-current="page" href="pocetna">Početna</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ Request::is('onama') ? 'active' : '' }}" href="onama">O nama</a>

@@ -27,7 +27,7 @@
           </div >
           <img
             class="img-fluid w-50 h-50 d-none d-md-block animate__animated animate__fadeInRightBig"
-            src="storage/showcase.png"
+            src="images/showcase.png"
             alt=""
           />
         </div>
@@ -44,7 +44,7 @@
 
           <div class="col-md-4 " >
             <div class="card " >
-              <img class="card-img-top img-fluid" src="storage/blaz.png" alt="Card image cap">
+              <img class="card-img-top img-fluid" src="images/blaz.png" alt="Card image cap">
               <div class="card-body p-4">
                 <h4 class="card-title fw-bold">Blaž Stipić</h4>
                 <p class="card-text boja ">
@@ -64,7 +64,7 @@
 
           <div class="col-md-4">
             <div class="card "  >
-              <img class="card-img-top" src="storage/simo.png" alt="Card image cap">
+              <img class="card-img-top" src="images/simo.png" alt="Card image cap">
               <div class="card-body p-4">
                 <h4 class="card-title fw-bold">Šimun Jelić</h4>
                 <p class="card-text">
@@ -91,27 +91,27 @@
       <h1 class="h1 pb-5">Korištene tehnologije</h1>
       <div class="row">
         <div class="col">
-          <img src="storage/html.png" alt="html" class=" img-fluid">
+          <img src="images/html.png" alt="html" class=" img-fluid">
           <h4 class="pt-1 fw-bold">HTML</h4>
         </div>
         <div class="col">
-          <img src="storage/css.png" alt="html" class=" img-fluid">
+          <img src="images/css.png" alt="html" class=" img-fluid">
           <h4 class="pt-1 fw-bold">CSS</h4>
         </div>
         <div class="col">
-          <img src="storage/bootsrap.png" alt="html" class=" img-fluid">
+          <img src="images/bootsrap.png" alt="html" class=" img-fluid">
           <h4 class="pt-1 fw-bold">Bootstrap</h4>
         </div>
         <div class="col">
-          <img src="storage/js.png" alt="html" class=" img-fluid">
+          <img src="images/js.png" alt="html" class=" img-fluid">
           <h4 class="pt-1 fw-bold">JavaScript </h4>
         </div>
         <div class="col">
-          <img src="storage/laravel.png" alt="html" class=" img-fluid">
+          <img src="images/laravel.png" alt="html" class=" img-fluid">
           <h4 class="pt-1 fw-bold">Laravel</h4>
         </div>
         <div class="col">
-          <img src="storage/mysql.png" alt="html" class=" img-fluid">
+          <img src="images/mysql.png" alt="html" class=" img-fluid">
           <h4 class="pt-1 fw-bold">MySQL</h4>
         </div>
       </div>

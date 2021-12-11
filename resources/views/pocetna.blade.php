@@ -11,7 +11,7 @@
         <h1  class="animate__animated animate__flipInX">Udomi u par <span class="text-primary ">KLIKOVA</span></h1>
         <p class="lead animate__animated animate__flipInX">Dobrodošli na mjesto gdje možete pronaći ljubimca pogodnog za vas u samo par klikova.</p>
       </div>
-      <img src="storage/dogPocetna-removebg-preview.png" alt="dog" class="img-fluid dog1 d-none d-md-block animate__animated animate__fadeInRightBig">
+      <img src="images/dogPocetna-removebg-preview.png" alt="dog" class="img-fluid dog1 d-none d-md-block animate__animated animate__fadeInRightBig">
     </div>
   </div>
 </div>
@@ -25,7 +25,7 @@
 
         <div class="col-md jump">
           <div class="card m-1">
-            <img src="storage/dog1.png" alt="dog1" class="card-img-top ">
+            <img src="images/dog1.png" alt="dog1" class="card-img-top ">
             <div class="card-body p-4 rouneded-bottom ">
               <h5 class="card-title fw-bold">Max i njegova braća</h5>
               <p class="card-text boja">
@@ -40,7 +40,7 @@
 
         <div class="col-md">
           <div class="card rounded m-1">
-            <img src="storage/cat1.png" alt="dog1" class="card-img-top">
+            <img src="images/cat1.png" alt="dog1" class="card-img-top">
             <div class="card-body p-4 rouneded-bottom">
               <h5 class="card-title fw-bold">Fiona</h5>
               <p class="card-text boja pb-4">Ja sam Fiona! Odrasla sam uz kante za smeće i preživjela zahvaljujući njihovim sadržajima.
@@ -52,7 +52,7 @@
 
         <div class="col-md">
           <div class="card m-1">
-            <img src="storage/dog2.png" alt="dog1" class="card-img-top">
+            <img src="images/dog2.png" alt="dog1" class="card-img-top">
             <div class="card-body p-4 rouneded-bottom">
               <h5 class="card-title fw-bold">Charli</h5>
               <p class="card-text pb-4 boja">
@@ -67,7 +67,7 @@
 
         <div class="col-md">
           <div class="card m-1">
-            <img src="storage/cat2.png" alt="dog1" class="card-img-top">
+            <img src="images/cat2.png" alt="dog1" class="card-img-top">
             <div class="card-body p-4 rouneded-bottom">
               <h5 class="card-title fw-bold ">Garfild</h5>
               <p class="card-text boja pb-4">

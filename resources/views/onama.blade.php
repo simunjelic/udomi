@@ -19,7 +19,7 @@
             </p>
             <div class=" button">
               <p>
-                <a class="btn text-white btn-primary" href="https://drive.google.com/file/d/1EltDYuz18QMDgf0euSuLa8ZQhwFoZu7m/view?pli=1" role="button">Vizija projekta</a>
+                <a class="btn text-white btn-primary " href="https://drive.google.com/file/d/1EltDYuz18QMDgf0euSuLa8ZQhwFoZu7m/view?pli=1" role="button">Vizija projekta</a>
               </p>
                 
             </div>

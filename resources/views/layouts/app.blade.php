@@ -48,7 +48,7 @@
                             <a class="nav-link {{ Request::is('onama') ? 'active' : '' }}" href="onama">O nama</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link {{ Request::is('udomi') ? 'active' : ''; }}" href="#">Udomi</a>
+                            <a class="nav-link {{ Request::is('udomi') ? 'active' : ''; }}" href="udomi">Udomi</a>
                         </li>
 
                         @guest
@@ -97,7 +97,7 @@
         
         <div class="container text-center p-3" >
           © 2021 Copyright:
-          <a class="text-light" href="/">udomi.ba</a>
+          <a class="text-light" href="{{ url('/') }}">udomi.ba</a>
         </div>
         
       </footer>

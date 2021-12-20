@@ -89,8 +89,8 @@
       <section class="mt-3 mb-5 animate__animated animate__fadeInRightBig">
         <div class="container mt-3 text-center">
           <h1 class="h1 pb-5">Ovlasti korisnika</h1>
-              <img src="images/tabela.jpeg" alt="html" class=" img-fluid">
-              <h4 class="pt-1 fw-bold">HTML</h4>
+              <img src="images/tabela.png" alt="html" class=" img-fluid">
+              
             </div>
 
       </section>

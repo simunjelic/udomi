@@ -86,14 +86,27 @@
 
       <!--Slika-->
 
-      <section class="mt-3 mb-5 animate__animated animate__fadeInRightBig">
-        <div class="container mt-3 text-center">
-          <h1 class="h1 pb-5">Ovlasti korisnika</h1>
-              <img src="images/tabela.png" alt="html" class=" img-fluid">
-              
-            </div>
-
-      </section>
+      <section
+      class=" p-5 p-lg-0 pt-lg-5 text-center text-lg-start mb-5"
+    >
+      <div class="container">
+        <div class=" d-lg-flex align-items-center justify-content-between ">
+          <div class="py-3 animate__animated animate__flipInX ">
+            <h1 class="">Vrste i ovlasti korisnika</h1>
+            <p class="lead my-4 d-none d-lg-block px-2">
+            Sa desne strane mozete pogledati postojeće korisnike,ovlasti i mogućnosti korisnika na našoj stranici.
+            </p>
+            
+            
+          </div >
+          <img
+            class="img-fluid img-responsive  animate__animated animate__fadeInRightBig "
+            src="images/tabela.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
 
    <!--ike koristenjai-->
 

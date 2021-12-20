@@ -86,9 +86,7 @@
 
       <!--Slika-->
 
-      <section
-      class=" p-5 p-lg-0 pt-lg-5 text-center text-lg-start mb-5"
-    >
+      <section class=" py-5 p-lg-0 pt-lg-5 text-center text-lg-start mb-5">
       <div class="container">
         <div class=" d-lg-flex align-items-center justify-content-between ">
           <div class="py-3 animate__animated animate__flipInX ">

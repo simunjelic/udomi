@@ -18,5 +18,6 @@ class PagesController extends Controller
     {
         return view('udomi');
     }
+    
 
 }

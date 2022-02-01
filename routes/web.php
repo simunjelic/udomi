@@ -18,8 +18,10 @@ use App\Http\Controllers\Controller;
 
 Route::get('/', [PagesController::class, 'pocetna']);
 Route::get('/onama', [PagesController::class, 'onama']);
-Route::get('/udomi', [PagesController::class, 'udomi']);
+
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('posts','App\Http\Controllers\PostsController');

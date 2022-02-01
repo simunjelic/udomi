@@ -14,10 +14,7 @@ class PagesController extends Controller
     {
         return view('onama');
     }
-    public function udomi()
-    {
-        return view('udomi');
-    }
+   
     
 
 }

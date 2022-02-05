@@ -24,7 +24,7 @@
     <link rel="icon" href="{{url('/images/tabLogo.png')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body style="background-image:url(images/paw2.png)">
+<body style="background-image:url({{ url('images/paw2.png') }})">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top shadow-sm">
             <div class="container">
@@ -71,13 +71,18 @@
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
                                 </a>
+                                
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    @can('is-admin')
+                                    <a class="dropdown-item" href="{{ route('admin.users.index') }}"><i class="bi bi-gear"></i> Admin Panel</a>
+                                    @endcan
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        {{ __('Odjava') }}
+                                        <i class="bi bi-box-arrow-right"></i> {{ __('Odjava') }}
                                     </a>
+                                    
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf

@@ -77,7 +77,7 @@ class PostsController extends Controller
         $post->cover_image = $fileNameToStore;
         $post->save();
 
-        return redirect('/posts')->with('sucess','Objavili ste oglas');
+        return redirect('/posts')->with('success','Objavili ste oglas');
     }
 
     /**

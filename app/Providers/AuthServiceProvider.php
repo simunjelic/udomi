@@ -46,6 +46,9 @@ class AuthServiceProvider extends ServiceProvider
         Gate::define('rate-posts', function ($user){
             return $user->hasAnyRoles(['user','admin','superadmin']);
         });
+        Gate::define('is-admin', function ($user){
+            return $user->hasAnyRoles(['admin','superadmin']);
+        });
 
              //
     }

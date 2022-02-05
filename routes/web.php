@@ -1,9 +1,11 @@
 <?php
 
+use App\Http\Controllers\Admin\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Controller;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +27,9 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::resource('posts','App\Http\Controllers\PostsController');
+
+
+
+Route::prefix('admin')->middleware(['auth','auth.isAdmin'])->name('admin.')->group(function(){
+    Route::resource('/users', UserController::class);
+});

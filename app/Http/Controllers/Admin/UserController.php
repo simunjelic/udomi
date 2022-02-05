@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Role;
+use App\Models\Post;
 use Illuminate\Support\Facades\Gate;
 
 class UserController extends Controller
@@ -117,6 +118,8 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
+        $post= Post::where('user_id', $id)->get();
+        $post->each->delete();
         User::destroy($id);
 
         return redirect(route('admin.users.index'))->with('success','Obrisali ste korisnika.');

@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.app', ['skriveno'=> true])
 
-@section('content')
+@section('content', )
 
 <div class="container">
 
@@ -9,7 +9,7 @@
             <h1 class="float-left" >Korisnici</h1>
         </div>
         <div class="float-right col-2">
-          <a class="float-right p-2 btn-sm btn-success text-white text-decoration-none" href="{{ route('admin.users.create') }}" role="button">Kreiraj korisnika</a>
+          <a class="float-right p-2 btn-sm btn-success text-white text-decoration-none" href="{{ route('admin.users.create') }}" role="button">Stvori korisnika</a>
         </div>
       </div>
     <div class="my-2">
@@ -56,6 +56,8 @@
     </tbody>
   </table>
   {{$users->links('pagination::bootstrap-4')}}
+
+ 
 </div>
 
 @endsection

@@ -102,7 +102,10 @@
 
         <!--Footer-->
 
-      <footer class="footer {{ Request::is('login') || Request::is('register') || Request::is('home')  ? 'fixed-bottom' : 'static-bottom'; }} bg-primary text-center text-lg-start text-white mt-5 ">
+      <footer class="footer @isset($dno) fixed-bottom @else static-bottom @endisset bg-primary text-center text-lg-start text-white mt-5 " 
+      @isset($skriveno)
+          style="display: none"
+      @endisset>
         
         <div class="container text-center p-3" >
           © 2021 Copyright:

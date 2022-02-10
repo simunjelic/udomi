@@ -99,7 +99,7 @@
           </div >
           <img
             class="img-fluid img-responsive  animate__animated animate__fadeInRightBig "
-            src="images/tabela.png"
+            src="images/tabela2.png"
             alt=""
           />
         </div>

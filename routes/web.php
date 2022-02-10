@@ -32,4 +32,5 @@ Route::resource('posts','App\Http\Controllers\PostsController');
 
 Route::prefix('admin')->middleware(['auth','auth.isAdmin'])->name('admin.')->group(function(){
     Route::resource('/users', UserController::class);
+    Route::get('/search', [UserController::class, 'search']);
 });

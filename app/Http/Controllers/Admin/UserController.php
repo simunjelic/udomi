@@ -124,4 +124,13 @@ class UserController extends Controller
 
         return redirect(route('admin.users.index'))->with('success','Obrisali ste korisnika.');
     }
+    public function search() {
+        $search_text = "";
+        if(isset($_GET['query'])) $search_text = $_GET['query'];
+        
+        $users = User::where('name','LIKE', '%'.$search_text.'%')->paginate(10);
+
+        return view('admin.search', compact('users'));
+
+    }
 }

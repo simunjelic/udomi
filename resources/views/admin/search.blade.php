@@ -14,8 +14,8 @@
       </div>
     
       
-      <form class="mt-3 row d-flex  form-inline" type="get" action="{{url('admin/search')}}">
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><input name="query" class="form-control mr-sm-2 col-4" type="search" placeholder="Traži" aria-label="Search"></div>
+      <form class="mt-3 row d-flex  form-inline" type="get" action="{{url('/admin/search')}}">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><input name="query" class="form-control mr-sm-2 col-4" type="search" placeholder="Traži korisnike" aria-label="Search"></div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><button class="btn btn-primary text-white my-2 my-sm-0 col-2" type="submit">Traži</button></div>
       </form>
     

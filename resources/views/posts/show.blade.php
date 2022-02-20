@@ -3,7 +3,7 @@
 @section('content') 
 <!-- Page content-->
 <div class="container mt-2">
-    <a href="/posts" class="btn btn-primary text-white mb-3">Vrati se nazad </a>
+    <a href="{{url('posts')}}" class="btn btn-primary text-white mb-3">Vrati se nazad </a>
     <div class="row">
         <div class="col-lg-8">
             <!-- Post content-->

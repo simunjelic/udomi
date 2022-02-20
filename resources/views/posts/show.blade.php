@@ -38,7 +38,7 @@
        
      <div class="d-flex flex-row justify-content-md-between mb-3 ">
         
-        <div class="p-2 "><a href="/posts/{{$post->id}}/edit" class="btn btn-primary text-white btn-lg">Uredi</a></div>
+        <div class="p-2 "><a href="{{ route('posts.edit', $post->id)}}" class="btn btn-primary text-white btn-lg">Uredi</a></div>
         
         <div class="p-2">{!! Form::open(['action' => ['App\Http\Controllers\PostsController@destroy', $post->id], 'method' => 'DELETE', 'class'=>'float-right']) !!}
             {{Form::submit('Obriši', ['class' => 'btn btn-danger bg-red text-white btn-lg'])}}

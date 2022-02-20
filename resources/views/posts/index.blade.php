@@ -5,7 +5,7 @@
         <div class="d-md-flex flex-row justify-content-between py-3">
             <div class="p-2 mt-1"><h1 class="d-inline">Dostupne životinje u vašoj blizini</h1></div>
             @if(!Auth::guest())
-            <div class="p-3"><a href="posts/create"><button type="button " class="btn btn-primary text-white d-inline">Objavite oglas</button></a></div>
+            <div class="p-3"><a href="{{ route('posts.create')}}"><button type="button " class="btn btn-primary text-white d-inline">Objavite oglas</button></a></div>
             @endif
             
           </div>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-lg-9 col-md-12 col-sm-12 py-3">
                     <div class="blog-title">
-                        <h3 class=" fw-bold"><a href="/posts/{{$post->id}}" class="text-decoration-none text-dark">{{$post->title}}</a></h3>
+                        <h3 class=" fw-bold"><a href="{{ route('posts.show', $post->id) }}" class="text-decoration-none text-dark">{{$post->title}}</a></h3>
                     </div>
                     
                     <div class="location my-1">
@@ -47,7 +47,7 @@
                         </div>
 
                         <div class="text-end">
-                            <a href="/posts/{{$post->id}}"> <button class="btn btn-outline-primary">Saznajte više</button></a>
+                            <a href="{{ route('posts.show', $post->id) }}"> <button class="btn btn-outline-primary">Saznajte više</button></a>
     
                         </div>
                         

@@ -13,7 +13,7 @@
                     <!-- Post title-->
                     <h1 class="fw-bolder mb-1">{{$post->title}}</h1>
                     <!-- Post meta content-->
-                    <div class="text-muted fst-italic mb-2">Objavljeno: {{$post->created_at}}</div>
+                    <div class="text-muted fst-italic mb-2">Objavljeno: {{date('d.m.Y.', strtotime($post->created_at))}}</div>
                     <div class="text-muted fst-italic mb-2 fs-bold">Autor: {{$post->user->name}}</div>
                     <!-- Post categories-->
                     <a class="badge bg-secondary text-decoration-none link-light" href="{{ url('/posts') }}">{{$post->location}}</a>

@@ -43,7 +43,7 @@
                             <span class="tijelo">{{$post->body}}</span>
                         </div><hr>
                         <div class="blog-date my-1">
-                            <i class="bi bi-calendar"></i><span><b> Objavljeno:</b> {{$post->created_at}}</span>
+                            <i class="bi bi-calendar"></i><span><b> Objavljeno:</b> {{date('d.m.Y.', strtotime($post->created_at))}}</span>
                         </div>
 
                         <div class="text-end">

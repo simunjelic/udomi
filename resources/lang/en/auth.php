@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
-    'password' => 'The provided password is incorrect.',
+    'failed' => 'Netočan email ili šifra.',
+    'password' => 'Netočna šifra.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];
